@@ -11,20 +11,20 @@ character overview comparison:
 
 ## 詳細
 details:
-  - name:
+  - name: フィエル
     charm:
       title:
-        - 
+        - お転婆かわいい
       entity:
         predicament:
-          - 
+          - 勇敢
         normaly:
-          - 
+          - 快活
     desire:
       contents:
-        - 
+        - 楽しく過ごせるちょっと危険で平和な世界を実現したい
       conflict:
-        - 
+        - 様々な困難
       past connected to desire:
         - 
     ordeal:
@@ -42,6 +42,7 @@ details:
         - 
       wrong point:
         - 
+    note:
 
 
   - name:
