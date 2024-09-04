@@ -13,50 +13,64 @@ detail:
   - group: 
     member:
 
+ ##          ##    ##    ########    ##
+ ##           ##  ##     ##          ##
+ ##            ####      ##          ##
+ ##             ##       ######      ##
+ ##             ##       ##          ##
+ ##             ##       ##          ##
+ ########       ##       ########    ########
 
-      - dn: フィエル
+      - dn: リエル
         applicable chapter: continuous
         nature:
           full name: 
-          nickname: フィエル
+          nickname: リエル
           race: 葦人
           gender: 女
           age: 19
-          eye-catching features: 
-          first impression: 
-          actual nature:
-            - 
-            - 
-            - 
-          special skills: 
-          role: 
-          note:
-            - 
-            - 
-            - 
-            - 
-          appearance:
+        eye-catching features: 
+        first impression: 
+        actual nature:
+          - 
+          - 
+          - 
+        special skills: 
+        role: 主人公
+        appearance:
+          overview: 
+          face:
             overview: 
-            face:
-              overview: 
-              hair: 
-              eyes: 
-            body:
-              overview: 
-              height: 
-              arm: 
-              breast/chest: 
-              waist: 
-              hips: 
-              buttocks: 
-              leg: 
-            voice: 
-          mind:
-            overview: お転婆かわいい
-              - お転婆だが感性と知性がハイスペックなので普通は問題にならない
-              - 
-              - 
-              - 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: お転婆かわいい
+            - お転婆だが感性と知性がハイスペックなので普通は問題にならない
+            - 
+            - 
+            - 
+        biography:
+          - age: 0
+            event:
+              - birth:
+                place: 
+                father: 
+                mother: 
+                note:
+                  - 侯爵家の長子として生まれる
+          - age: 19
+            event:
+              - 旅に出る
         note:
           - item: 
             contents: |
@@ -101,6 +115,89 @@ detail:
 
               感性と知性が共に成長すると、自己理解や他者理解が深まり、人生のあらゆる側面でより良い選択ができるようになるね　精進していくことで、自己の可能性を広げ、より充実した人生を送ることができるだろう
 
+ ########     ########    ####    ########    ####       ###
+ ##     ##    ##           ##        ##        ##       ## ##
+ ##     ##    ##           ##        ##        ##      ##   ##
+ ########     ######       ##        ##        ##     ##     ##
+ ##   ##      ##           ##        ##        ##     #########
+ ##    ##     ##           ##        ##        ##     ##     ##
+ ##     ##    ########    ####       ##       ####    ##     ##
+
+
+      - dn: レイティア
+        applicable chapter: 
+        nature:
+          full name: 
+          nickname: レイティア
+          race: 犬獣人
+          gender: 女
+          age: 16
+        eye-catching features: 
+        first impression: 
+        actual nature:
+          - 
+          - 
+          - 
+        special skills: 
+        role: 
+        appearance:
+          overview: 
+          face:
+            overview: 
+            hair: 
+            eyes: 
+          body:
+            overview: 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: しっかり者かわいい
+            - 
+            - 
+            - 
+            - 
+        biography:
+          - age: 0
+            event:
+              - birth:
+                place: 
+                father: 
+                mother: 
+                note:
+                  - 男爵家の第三子として生まれる
+        note:
+          - item: 
+            contents: |
+              1. 冷静で慎重な性格
+              お転婆な人が衝動的に行動しがちな場合、冷静で慎重な性格の友達が、リスクを分析し、計画を立てるサポートをしてくれる　彼らはお転婆な友達の行動を見守りつつ、時にはブレーキ役として「ちょっと待って考えよう」とアドバイスを提供できるだろう
+
+              2. 共感力と聞き上手な性格
+              お転婆な人が人間関係でトラブルを起こしたり、感情的になったりする場合、共感力が高く聞き上手な友達が、相手の立場を理解するよう促し、状況を落ち着いて整理するのを助ける　このような友達は、他人の気持ちを汲み取りながら、お転婆な友達に必要な視点を与えることができる
+
+              3. 知的で論理的な性格
+              お転婆な人が直感的に行動しすぎる傾向がある場合、知的で論理的な性格の友達が、物事を分析し、論理的な判断をする助けをしてくれる　彼らは、お転婆な人のアイデアに現実的な視点を加え、長所を活かしながらリスクを最小限に抑えるように導く
+
+              4. 忍耐強くサポートする性格
+              お転婆な人が失敗を繰り返すことを恐れずに挑戦する場合、その挑戦を応援し続ける忍耐強い友達が必要だ　彼らは失敗しても批判せず、励ましながら成長をサポートし、持続的なモチベーションを提供する
+
+              5. 現実的で実務的な性格
+              お転婆な人が夢中になって新しいことに挑戦する一方で、細かい事務的なタスクや計画を忘れがちな場合、現実的で実務的な性格の友達が、それを補ってくれる　彼らは、細部に注意を払いながら全体の流れを見守り、必要なステップを確認する役割を果たする
+
+              6. 柔軟性と適応力のある性格
+              お転婆な人の予測できない行動や変わりやすい計画に対して柔軟に対応できる性格の友達も重要だ　柔軟性があり、適応力のある友達は、お転婆な人の思い付きや変化に対してオープンで、彼らを支えながら状況に応じて最善の行動を取れるよう促す
+
+              7. ポジティブで応援する性格
+              お転婆な人が何かに失敗したり、挫折感を抱いたりしたとき、ポジティブで応援する性格の友達が大いに役立つ　彼らは励ましの言葉をかけ、失敗を次のステップへの学びと捉えさせるようサポートする
+
+              まとめ
+              友達としては、冷静で論理的な判断を下しながらも、共感力や忍耐力を持ち、柔軟に対応する性格の人が望ましいだろう　このような友達がいることで、お転婆な人の強みを活かしつつ、その欠点を補い、バランスの取れた成長が促される　相互に補完し合うことで、お互いにとって良い関係が築かれるはずだ
+
 
       - dn: 
         applicable chapter: 
@@ -110,41 +207,45 @@ detail:
           race: 
           gender: 
           age: 
-          eye-catching features: 
-          first impression: 
-          actual nature:
-            - 
-            - 
-            - 
-          special skills: 
-          role: 
-          note:
-            - 
-            - 
-            - 
-            - 
-          appearance:
+        eye-catching features: 
+        first impression: 
+        actual nature:
+          - 
+          - 
+          - 
+        special skills: 
+        role: 
+        appearance:
+          overview: 
+          face:
             overview: 
-            face:
-              overview: 
-              hair: 
-              eyes: 
-            body:
-              overview: 
-              height: 
-              arm: 
-              breast/chest: 
-              waist: 
-              hips: 
-              buttocks: 
-              leg: 
-            voice: 
-          mind:
+            hair: 
+            eyes: 
+          body:
             overview: 
-              - 
-              - 
-              - 
-              - 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+        biography:
+          - age: 0
+            event:
+              - birth:
+                place: 
+                father: 
+                mother: 
+                note:
+                  - 
         note:
           - item: 
             contents: |
@@ -158,41 +259,45 @@ detail:
           race: 
           gender: 
           age: 
-          eye-catching features: 
-          first impression: 
-          actual nature:
-            - 
-            - 
-            - 
-          special skills: 
-          role: 
-          note:
-            - 
-            - 
-            - 
-            - 
-          appearance:
+        eye-catching features: 
+        first impression: 
+        actual nature:
+          - 
+          - 
+          - 
+        special skills: 
+        role: 
+        appearance:
+          overview: 
+          face:
             overview: 
-            face:
-              overview: 
-              hair: 
-              eyes: 
-            body:
-              overview: 
-              height: 
-              arm: 
-              breast/chest: 
-              waist: 
-              hips: 
-              buttocks: 
-              leg: 
-            voice: 
-          mind:
+            hair: 
+            eyes: 
+          body:
             overview: 
-              - 
-              - 
-              - 
-              - 
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
+            - 
+            - 
+            - 
+            - 
+        biography:
+          - age: 0
+            event:
+              - birth:
+                place: 
+                father: 
+                mother: 
+                note:
+                  - 
         note:
           - item: 
             contents: |
@@ -206,89 +311,45 @@ detail:
           race: 
           gender: 
           age: 
-          eye-catching features: 
-          first impression: 
-          actual nature:
-            - 
-            - 
-            - 
-          special skills: 
-          role: 
-          note:
-            - 
-            - 
-            - 
-            - 
-          appearance:
+        eye-catching features: 
+        first impression: 
+        actual nature:
+          - 
+          - 
+          - 
+        special skills: 
+        role: 
+        appearance:
+          overview: 
+          face:
             overview: 
-            face:
-              overview: 
-              hair: 
-              eyes: 
-            body:
-              overview: 
-              height: 
-              arm: 
-              breast/chest: 
-              waist: 
-              hips: 
-              buttocks: 
-              leg: 
-            voice: 
-          mind:
+            hair: 
+            eyes: 
+          body:
             overview: 
-              - 
-              - 
-              - 
-              - 
-        note:
-          - item: 
-            contents: |
-
-
-      - dn: 
-        applicable chapter: 
-        nature:
-          full name: 
-          nickname: 
-          race: 
-          gender: 
-          age: 
-          eye-catching features: 
-          first impression: 
-          actual nature:
-            - 
-            - 
-            - 
-          special skills: 
-          role: 
-          note:
+            height: 
+            arm: 
+            breast/chest: 
+            waist: 
+            hips: 
+            buttocks: 
+            leg: 
+          voice: 
+        mind:
+          overview: 
             - 
             - 
             - 
             - 
-          appearance:
-            overview: 
-            face:
-              overview: 
-              hair: 
-              eyes: 
-            body:
-              overview: 
-              height: 
-              arm: 
-              breast/chest: 
-              waist: 
-              hips: 
-              buttocks: 
-              leg: 
-            voice: 
-          mind:
-            overview: 
-              - 
-              - 
-              - 
-              - 
+        biography:
+          - age: 0
+            event:
+              - birth:
+                place: 
+                father: 
+                mother: 
+                note:
+                  - 
         note:
           - item: 
             contents: |

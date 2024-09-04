@@ -11,7 +11,7 @@ character overview comparison:
 
 ## 詳細
 details:
-  - name: フィエル
+  - name: リエル
     charm:
       title:
         - お転婆かわいい
@@ -45,22 +45,22 @@ details:
     note:
 
 
-  - name:
+  - name: レイティア
     charm:
       title:
-        - 
+        - しっかり者かわいい
       entity:
         predicament:
-          - 
+          - 敢然
         normaly:
-          - 
+          - 冷静
     desire:
       contents:
-        - 
+        - リエルの役に立ちたい
       conflict:
-        - 
+        - 能力がリエルに及ばないこと
       past connected to desire:
-        - 
+        - 初めて会ったときリエルが輝いて見えた
     ordeal:
       title:
         - 
