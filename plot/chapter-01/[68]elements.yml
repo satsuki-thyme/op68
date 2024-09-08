@@ -1,201 +1,98 @@
 # プロット要素 第1章
-1:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
+## 長周期事実のプロット
+plot of long cycle fact:
+  - 勇者と魔王の噂を聞く
+  - 魔王の影響をそうと知らずに受ける
+  - 勇者と反目する
+  - 勇者が失敗する
+  - 魔王が暴れる
+  - 勇者と和解する
+  - 勇者に教える
+  - 魔王が勇者に倒される
 
 
-2:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-3:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-4:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-5:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-6:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-7:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-8:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-9:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-10:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-11:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-12:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-13:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-14:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-15:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-16:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-17:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-18:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-19:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-20:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-21:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-22:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-23:
-  - 
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-24:
-  - 諸問題が魔法都市の不具合に収束する
-  - information:
-    - 
-  - mystery:
-    - 
-
-
-25:
-  - 魔法都市の不具合を修正する
-  - information:
-    - 
-  - mystery:
-    - 
+## 短周期事実のプロット
+plot of short cycle fact:
+  quarter theme:
+    theme of themes: 論理・理性
+    contents:
+      1: 認識・観察（節度）
+      2: 分析・仮説（知恵）
+      3: 判断・実験（正義）
+      4: 行動・結論（勇気）
+  hexalogy theme:
+    theme of themes: 感情
+    contents:
+      - 喜び
+      - 悲しみ
+      - 怒り
+      - 恐怖
+      - 驚き
+      - 嫌悪
+      - quarter: 1
+        quarter theme: 認識・観察（節度）
+        episode:
+          1:
+            - 
+          2:
+            - 
+          3:
+            - 
+          4:
+            - 
+          5:
+            - 
+          6:
+            - 
+      - quarter: 2
+        quarter theme: 分析・仮説（知恵）
+        episode:
+          7:
+            - 
+          8:
+            - 
+          9:
+            - 
+          10:
+            - 
+          11:
+            - 
+          12:
+            - 
+      - quarter: swimsuit episode
+        quarter theme: 水着回
+        episode:
+          13: 
+            - 水着回
+      - quarter: 3
+        quarter theme: 判断・実験（正義）
+        episode:
+          14:
+            - 
+          15:
+            - 
+          16:
+            - 
+          17:
+            - 
+          18:
+            - 
+          19:
+            - 
+      - quarter: 4
+        quarter theme: 行動・結論（勇気）
+        episode:
+          20:
+            - 
+          21:
+            - 
+          22:
+            - 
+          23:
+            - 
+          24:
+            - 
+          25:
+            - 
 
 
