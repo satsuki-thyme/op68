@@ -1,0 +1,33 @@
+# テーマ
+## 四分テーマ
+quarter theme:
+  theme of themes: 欲求
+  element of themes:
+    - item: 社会的欲求
+      description: 他者との関わりや、グループへの所属、他人からの承認や評価を求める欲求
+    - item: 自己実現の欲求
+      description: 自分の能力や知識を高めたり、個性や才能を発揮したりすることを求める欲求
+    - item: 安全・安定の欲求
+      description: 身体的、経済的、環境的な安全と安定を求める欲求
+    - item: 自由の欲求
+      description: 自分の意思で選択し行動する自由を求める欲求
+
+
+## 六分テーマ
+hexalogy theme:
+  theme of themes: 感情
+  element of themes:
+    - item: 喜び
+      description: 
+    - item: 悲しみ
+      description: 
+    - item: 怒り
+      description: 
+    - item: 恐怖
+      description: 
+    - item: 驚き
+      description: 
+    - item: 嫌悪
+      description: 
+
+
