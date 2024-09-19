@@ -18,3 +18,4 @@
 
 ### 思考ノート
 - thinking-notes/thi-001.md: 幻霊
+- thinking-notes/thi-002.md: 伏線
