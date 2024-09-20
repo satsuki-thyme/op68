@@ -60,7 +60,8 @@ plot of global:
 foreshadowing:
   - item:
     contents:
-      resolution: 
-      event of resolution: 
+      answer: 
+      resolution:
+      ref: thi-002.md 
       foreshadowing:
         - 
