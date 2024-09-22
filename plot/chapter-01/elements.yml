@@ -1,8 +1,75 @@
 # プロット要素 第1章
 ## 全体プロット
 plot of global:
-  - item: 聖騎士と幻霊のプロット
-    contents:
+  - item:
+    theme: 主人公
+    num: 1
+    contents: 魔法都市へ向けて出発する
+
+  - item:
+    theme: 聖騎士
+    num: 1
+    contents: 聖騎士との出会いと反目
+
+  - item:
+    theme: 主人公
+    num: 2
+    contents: 聖騎士と同じ門からは出られず道を変える
+
+  - item:
+    theme: 聖騎士
+    num: 2
+    contents: 失敗した聖騎士との邂逅
+
+  - item:
+    theme: 主人公
+    num: 3
+    contents: 霊樹を取りにいく旅
+
+  - item:
+    theme: 聖騎士
+    num: 3
+    contents: 聖騎士の解呪をして和解、破邪のアイテムを授ける
+
+  - item:
+    theme: 主人公
+    num: 4
+    contents: 魔法に関する秘密情報を得る
+
+  - item:
+    theme: 主人公
+    num: 5
+    contents: 魔法を得る
+
+  - item:
+    theme: 聖騎士
+    num: 4
+    contents: 失敗した聖騎士との邂逅と特訓
+
+  - item:
+    theme: 主人公
+    num: 6
+    contents: 暇つぶしに近場を旅する
+
+  - item:
+    theme: 聖騎士
+    num: 5
+    contents: 特訓を終えた聖騎士
+
+  - item:
+    theme: 主人公
+    num: 7
+    contents: 
+
+  - item:
+    theme: 聖騎士
+    num: 6
+    contents: 成功した聖騎士との邂逅
+
+  - item:
+    theme: 主人公
+    num: 8
+    contents: 
 
 
 ## 伏線
