@@ -2,7 +2,9 @@
 1:
   theme: 社会的欲求, 喜び
   contents:
-    - 
+    - /10 gen fct --- --- f - 魔法都市へ向けて出発する
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -12,7 +14,9 @@
 2:
   theme: 社会的欲求, 悲しみ
   contents:
-    - 
+    - /10 gen rsv --- nxt f - 魔王と聖騎士の噂を聞く
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -22,7 +26,9 @@
 3:
   theme: 社会的欲求, 怒り
   contents:
-    - 
+    - /10 gen trg --- --- f b 聖騎士との出会いと反目
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -32,7 +38,10 @@
 4:
   theme: 社会的欲求, 恐怖
   contents:
-    - 
+    - /10 gen fct --- --- f - 聖騎士と同じ門からは出られず道を変える
+    - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
+  forwerd connection:
+    - 聖騎士
   information:
     - 
   mystery:
@@ -42,7 +51,11 @@
 5:
   theme: 社会的欲求, 驚き
   contents:
-    - 
+    - /10 gen trg --- --- f - 空間の亀裂を見つける
+    - /10 gen fsd --- lst f - 〃
+    - /10 gen rsv --- nxt f - 聖騎士の失敗と療養の噂を聞く
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -52,7 +65,9 @@
 6:
   theme: 社会的欲求, 嫌悪
   contents:
-    - 
+    - /10 gen trg --- --- f - 失敗した聖騎士との邂逅
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -62,7 +77,9 @@
 7:
   theme: 自己実現の欲求, 恐怖
   contents:
-    - 
+    - /10 gen fct --- --- f - 霊樹を取りにいく旅を始める
+  forwerd connection:
+    - 聖騎士
   information:
     - 
   mystery:
@@ -72,7 +89,9 @@
 8:
   theme: 自己実現の欲求, 驚き
   contents:
-    - 
+    - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -82,7 +101,10 @@
 9:
   theme: 自己実現の欲求, 嫌悪
   contents:
-    - 
+    - /10 gen trg --- --- f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
+    - /10 gen fsd --- lst f b 〃
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -93,6 +115,8 @@
   theme: 自己実現の欲求, 喜び
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -102,7 +126,9 @@
 11:
   theme: 自己実現の欲求, 悲しみ
   contents:
-    - 
+    - /10 gen fct --- --- f b 霊樹の採取
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -112,7 +138,11 @@
 12:
   theme: 自己実現の欲求, 怒り
   contents:
-    - 
+    - /10 gen fct --- --- f - 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
+    - /10 gen fsd --- lst f - 魔王には侵理の力があると知る
+    - /10 gen fsd --- lst f - 魔王が幻霊と手を組んでいると知る
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -122,7 +152,9 @@
 13:
   theme: 水着回
   contents:
-    - 
+    - /10 gen fct --- --- f - 暇つぶしに近場を旅する
+  forwerd connection:
+    - 聖騎士
   information:
     - 
   mystery:
@@ -133,6 +165,8 @@
   theme: 安全・安定の欲求, 喜び
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -143,6 +177,8 @@
   theme: 安全・安定の欲求, 悲しみ
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -152,7 +188,9 @@
 16:
   theme: 安全・安定の欲求, 恐怖
   contents:
-    - 
+    - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -162,7 +200,10 @@
 17:
   theme: 安全・安定の欲求, 怒り
   contents:
-    - 
+    - /10 gen trg --- --- f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る
+    - /10 gen fsd --- lst f b 〃
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -172,7 +213,9 @@
 18:
   theme: 安全・安定の欲求, 驚き
   contents:
-    - 
+    - /10 gen fct --- --- f - 特訓を終えた聖騎士と再会する
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -182,7 +225,9 @@
 19:
   theme: 安全・安定の欲求, 嫌悪
   contents:
-    - 
+    - /10 gen fct --- --- f - 心配なので前線近くを旅する
+  forwerd connection:
+    - 聖騎士
   information:
     - 
   mystery:
@@ -193,6 +238,8 @@
   theme: 自由の欲求, 怒り
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -203,6 +250,8 @@
   theme: 自由の欲求, 驚き
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -213,6 +262,8 @@
   theme: 自由の欲求, 嫌悪
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -223,6 +274,8 @@
   theme: 自由の欲求, 喜び
   contents:
     - 
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -232,7 +285,10 @@
 24:
   theme: 自由の欲求, 悲しみ
   contents:
-    - 
+    - /10 gen fct --- --- f - 成功した聖騎士との邂逅
+    - /10 gen fsd --- lst f - 魔王が魔法都市を気にかけていたと知る
+  forwerd connection:
+    - 個別
   information:
     - 
   mystery:
@@ -242,7 +298,9 @@
 25:
   theme: 自由の欲求, 恐怖
   contents:
-    - 
+    - /10 gen fct --- --- f - 魔法都市に着く
+  forwerd connection:
+    - 聖騎士
   information:
     - 
   mystery:
