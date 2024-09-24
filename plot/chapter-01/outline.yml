@@ -213,7 +213,7 @@
 18:
   theme: 安全・安定の欲求, 驚き
   contents:
-    - /10 gen fct --- --- f - 特訓を終えた聖騎士と再会する
+    - 
   forwerd connection:
     - 個別
   information:
@@ -225,9 +225,9 @@
 19:
   theme: 安全・安定の欲求, 嫌悪
   contents:
-    - /10 gen fct --- --- f - 心配なので前線近くを旅する
+    - /10 gen fct --- --- f - 特訓を終えた聖騎士と再会する
   forwerd connection:
-    - 聖騎士
+    - 個別
   information:
     - 
   mystery:
@@ -238,8 +238,9 @@
   theme: 自由の欲求, 怒り
   contents:
     - 
+    - /10 gen fct --- --- f - 心配なので前線近くを旅する
   forwerd connection:
-    - 個別
+    - 聖騎士
   information:
     - 
   mystery:
@@ -299,6 +300,7 @@
   theme: 自由の欲求, 恐怖
   contents:
     - /10 gen fct --- --- f - 魔法都市に着く
+    - /00 gen rsl lst --- f - 魔法都市で境界のオーブを見る
   forwerd connection:
     - 聖騎士
   information:

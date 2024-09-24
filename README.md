@@ -11,9 +11,11 @@
 - plot/chapter-01/outline.yml:  プロット概要
 
 
-### etc
-- etc/memo.md: メモ
-- etc/todo.md: ToDoリスト
+### 作業管理
+- @work-management/todo.md:       ToDoリスト
+- @work-management/notice.md:     注意事項
+- @work-management/idea.md:       アイデア
+- @work-management/storehouse.md: 倉庫
 
 
 ### 思考ノート
