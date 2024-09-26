@@ -3,23 +3,59 @@
 foreshadowing:
   - item: 境界のオーブ
     contents:
-      answer: 境界のオーブに魔王の侵理の力が作用して異常が発生して幻界とつながりそうだと知る
       ref: thi-002.md 
+      answer:
+        - 境界のオーブに魔王の侵理の力が作用して異常が発生して幻界とつながりそうだと知る
       resolution:
-        - /00 gen rsl lst --- f - 魔法都市で境界のオーブを見る
+        - /01 gen rsl lst --- f - 魔法都市で境界のオーブを見る
       foreshadowing:
-        - /00 gen fsd --- lst f - 空間の亀裂を見つける
-        - /00 gen fsd --- lst f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
-        - /00 gen fsd --- lst f - 魔王には侵理の力があると知る
-        - /00 gen fsd --- lst f - 魔王が幻霊と手を組んでいると知る
-        - /00 gen fsd --- lst f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る
-        - /00 gen fsd --- lst f - 魔王が魔法都市を気にかけていたと知る
+        - /01 gen fsd --- lst f - 空間の亀裂を見つける
+        - /01 gen fsd --- lst f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
+        - /01 gen fsd --- lst f - 魔王には侵理の力があると知る
+        - /01 gen fsd --- lst f - 魔王が幻霊と手を組んでいると知る
+        - /01 gen fsd --- lst f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る
+        - /01 gen fsd --- lst f - 魔王が魔法都市を気にかけていたと知る
+
+
+## 予兆的示唆
+premonitory suggestions:
+  - item:
+    contents:
+      ref: -
+      answer:
+        - リエルは世界を救う
+      suggestion:
+        - /11 gen sug --- --- f - リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
+      invoke:
+        - /11 gen inv lst --- f - レイティア「世界を、お救いになったのですね……」
+
+
+  - item:
+    contents:
+      ref: -
+      answer:
+        - レイティアはリエルが何者でも愛す
+      suggestion:
+        - /12 gen sug --- --- f - レイティア「私はリエル様が何者でも……、愛します！」
+      invoke:
+        - /12 gen inv lst --- f - リエルが神人と分かっても抱きしめる
 
 
 ## ヒント
 hints:
-  - item: リエルの秘密とかにしようかと思っているneed to think
+  - item: リエルの秘密
     contents:
-      answer: 
-      ref: 
-      
+      ref: thi-003.md
+      answer:
+        - リエルは神人
+      resolution:
+        - /01 gen rev lst --- f - 神に賜った境界のオーブを修復する
+      hints:
+        - /01 gen hnt --- lst f - レイティアが魔法で分析しても種族が隠されている
+        - /01 gen hnt --- lst f - 晴れる
+        - /01 gen hnt --- lst f - 気を抜いていて輝いてしまう
+        - /01 gen hnt --- lst f - 気を抜いていて足下に草花が繁茂する
+        - /01 gen hnt --- lst f - 恵みの雨が降る
+        - /01 gen hnt --- lst f - レイティアが神の気配を感じる
+        - /01 gen hnt --- lst f - 圧倒的な力を見せる
+        - /01 gen hnt --- lst f - 神獣が服従する

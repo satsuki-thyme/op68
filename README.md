@@ -7,8 +7,11 @@
 
 
 ### プロット
-- plot/chapter-01/elements.yml: プロット要素
-- plot/chapter-01/outline.yml:  プロット概要
+- plot/chapter-01/themes.yml:          テーマ設定 第1章
+- plot/chapter-01/elements.yml:        プロット要素 第1章
+- plot/chapter-01/outline.yml:         プロット概要 第1章
+- plot/chapter-01/narrative-clues.yml: 前兆要素 第1章
+- plot/chapter-01/information.yml:     情報提示と謎の設定 第1章
 
 
 ### 作業管理
@@ -21,3 +24,4 @@
 ### 思考ノート
 - thinking-notes/thi-001.md: 幻霊
 - thinking-notes/thi-002.md: 伏線
+- thinking-notes/thi-003.md: リエルの秘密（ヒントに向けて）

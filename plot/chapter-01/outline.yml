@@ -2,6 +2,10 @@
 1:
   theme: 社会的欲求, 喜び
   contents:
+    - /11 gen hnt --- lst f - レイティアが魔法で分析しても種族が隠されている
+    - /12 gen sug --- --- f - レイティア「私はリエル様が何者でも……、愛します！」
+    - /11 gen sug --- --- f - リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
+    - /11 gen hnt --- lst f - 晴れる
     - /10 gen fct --- --- f - 魔法都市へ向けて出発する
   forwerd connection:
     - 個別
@@ -40,6 +44,7 @@
   contents:
     - /10 gen fct --- --- f - 聖騎士と同じ門からは出られず道を変える
     - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
+    - /11 gen hnt --- lst f - 晴れる
   forwerd connection:
     - 聖騎士
   information:
@@ -90,6 +95,7 @@
   theme: 自己実現の欲求, 驚き
   contents:
     - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
+    - /11 gen hnt --- lst f - 気を抜いていて輝いてしまう
   forwerd connection:
     - 個別
   information:
@@ -127,6 +133,7 @@
   theme: 自己実現の欲求, 悲しみ
   contents:
     - /10 gen fct --- --- f b 霊樹の採取
+    - /11 gen hnt --- lst f - 神獣が服従する
   forwerd connection:
     - 個別
   information:
@@ -165,6 +172,7 @@
   theme: 安全・安定の欲求, 喜び
   contents:
     - 
+    - /11 gen hnt --- lst f - 恵みの雨が降る
   forwerd connection:
     - 個別
   information:
@@ -175,8 +183,10 @@
 
 15:
   theme: 安全・安定の欲求, 悲しみ
+  notice: 14の翌日
   contents:
     - 
+    - /11 gen hnt --- lst f - 晴れる
   forwerd connection:
     - 個別
   information:
@@ -202,6 +212,7 @@
   contents:
     - /10 gen trg --- --- f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る
     - /10 gen fsd --- lst f b 〃
+    - /11 gen hnt --- lst f - 気を抜いていて足下に草花が繁茂する
   forwerd connection:
     - 個別
   information:
@@ -239,6 +250,7 @@
   contents:
     - 
     - /10 gen fct --- --- f - 心配なので前線近くを旅する
+    - /11 gen hnt --- lst f - レイティアが神の気配を感じる
   forwerd connection:
     - 聖騎士
   information:
@@ -275,6 +287,7 @@
   theme: 自由の欲求, 喜び
   contents:
     - 
+    - /11 gen hnt --- lst f - 圧倒的な力を見せる
   forwerd connection:
     - 個別
   information:
@@ -300,7 +313,9 @@
   theme: 自由の欲求, 恐怖
   contents:
     - /10 gen fct --- --- f - 魔法都市に着く
-    - /00 gen rsl lst --- f - 魔法都市で境界のオーブを見る
+    - /01 gen rsl lst --- f - 魔法都市で境界のオーブを見る
+    - /11 gen inv lst --- f - レイティア「世界を、お救いになったのですね……」
+    - /12 gen inv lst --- f - リエルが神人と分かっても抱きしめる
   forwerd connection:
     - 聖騎士
   information:
