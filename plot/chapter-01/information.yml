@@ -1,15 +1,26 @@
-# 情報提示と謎の設定
-- item:
-  category: 世界観
-  contents:
-    - item:
-      contents:
+# 情報開示
+## 世界観上の情報
+worldveiw information:
+  ### 世界観構築
+  worldbuilding:
+    - 
 
 
-- item:
-  category: 境界のオーブ
-  contents:
-    - item:
-      contents:
+  ### 世界観持続
+  worldview sustainability:
+    - 
 
 
+## ストーリー上の情報
+story information:
+  - リエル
+  - レイティア
+  - 聖騎士
+  - 魔王
+  - 幻霊
+    - 幻霊全般
+    - ハト派
+    - タカ派
+  - 幻界
+  - アデルアーナ界
+  - 境界のオーブ

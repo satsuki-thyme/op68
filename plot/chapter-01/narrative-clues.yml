@@ -19,7 +19,7 @@ foreshadowing:
 
 ## 予兆的示唆
 premonitory suggestions:
-  - item:
+  - item: リエル
     contents:
       ref: -
       answer:
@@ -30,7 +30,7 @@ premonitory suggestions:
         - /11 gen inv lst --- f - レイティア「世界を、お救いになったのですね……」
 
 
-  - item:
+  - item: レイティア
     contents:
       ref: -
       answer:
@@ -49,13 +49,24 @@ hints:
       answer:
         - リエルは神人
       resolution:
-        - /01 gen rev lst --- f - 神に賜った境界のオーブを修復する
+        - /11 gen rev lst --- f - 神に賜った境界のオーブを修復する
       hints:
-        - /01 gen hnt --- lst f - レイティアが魔法で分析しても種族が隠されている
-        - /01 gen hnt --- lst f - 晴れる
-        - /01 gen hnt --- lst f - 気を抜いていて輝いてしまう
-        - /01 gen hnt --- lst f - 気を抜いていて足下に草花が繁茂する
-        - /01 gen hnt --- lst f - 恵みの雨が降る
-        - /01 gen hnt --- lst f - レイティアが神の気配を感じる
-        - /01 gen hnt --- lst f - 圧倒的な力を見せる
-        - /01 gen hnt --- lst f - 神獣が服従する
+        - /11 gen hnt --- lst f - レイティアが魔法で分析しても種族が隠されている
+        - /11 gen hnt --- lst f - 晴れる
+        - /11 gen hnt --- lst f - 気を抜いていて輝いてしまう
+        - /11 gen hnt --- lst f - 気を抜いていて足下に草花が繁茂する
+        - /11 gen hnt --- lst f - 恵みの雨が降る
+        - /11 gen hnt --- lst f - レイティアが神の気配を感じる
+        - /11 gen hnt --- lst f - 圧倒的な力を見せる
+        - /11 gen hnt --- lst f - 神獣が服従する
+
+
+  - item: レイティアの秘密
+    contents:
+      ref: thi-004.md
+      answer:
+        - レイティアは
+      resolution:
+        - /12 gen rev lst --- f - 
+      hints:
+        - /12 gen hnt --- lst f - 
