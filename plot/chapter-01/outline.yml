@@ -95,7 +95,7 @@
   theme: 自己実現の欲求, 驚き
   contents:
     - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
-    - /11 gen hnt --- lst f - 気を抜いていて輝いてしまう
+    - /11 gen hnt --- lst b - 気を抜いていて輝いてしまう
   forwerd connection:
     - 個別
   information:
@@ -212,7 +212,7 @@
   contents:
     - /10 gen trg --- --- f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
     - /10 gen fsd --- lst f b 〃
-    - /11 gen hnt --- lst f - 気を抜いていて足下に草花が繁茂する
+    - /11 gen hnt --- lst ? - 気を抜いていて足下に草花が繁茂する
   forwerd connection:
     - 個別
   information:
@@ -250,7 +250,7 @@
   contents:
     - 
     - /10 gen fct --- --- f - 心配なので前線近くを旅する
-    - /11 gen hnt --- lst f - レイティアが神の気配を感じる
+    - /11 gen hnt --- lst b - レイティアが神の気配を感じる
   forwerd connection:
     - 聖騎士
   information:

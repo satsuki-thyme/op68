@@ -43,7 +43,7 @@ premonitory suggestions:
 
 ## ヒント
 hints:
-  - item: リエルの秘密
+  - item: リエルの秘密1
     contents:
       ref: thi-003.md
       answer:
@@ -53,20 +53,42 @@ hints:
       hints:
         - /11 gen hnt --- lst f - レイティアが魔法で分析しても種族が隠されている
         - /11 gen hnt --- lst f - 晴れる
-        - /11 gen hnt --- lst f - 気を抜いていて輝いてしまう
-        - /11 gen hnt --- lst f - 気を抜いていて足下に草花が繁茂する
+        - /11 gen hnt --- lst b - 気を抜いていて輝いてしまう
+        - /11 gen hnt --- lst ? - 気を抜いていて足下に草花が繁茂する
         - /11 gen hnt --- lst f - 恵みの雨が降る
-        - /11 gen hnt --- lst f - レイティアが神の気配を感じる
+        - /11 gen hnt --- lst b - レイティアが神の気配を感じる
         - /11 gen hnt --- lst f - 圧倒的な力を見せる
         - /11 gen hnt --- lst f - 神獣が服従する
+
+
+  - item: リエルの秘密2
+    contents:
+      ref: -
+      answer:
+        - リエルはレイティアを愛している
+      resolution:
+        - /11 gen rev lst --- f - レイティアの愛を受け入れる
+      hints:
+        - /11 gen hnt --- lst f - キスされたら襲いかかるつもりでいた
 
 
   - item: レイティアの秘密
     contents:
       ref: thi-004.md
       answer:
-        - レイティアは
+        - レイティアはリエルを愛している
       resolution:
-        - /12 gen rev lst --- f - 
+        - /12 gen rev lst --- f - リエルが神人と分かっても変わらぬ愛を向ける
       hints:
-        - /12 gen hnt --- lst f - 
+        - /12 gen hnt --- lst b - 手をつなぎたそうにする
+        - /12 gen hnt --- lst b - キスしかける
+        - /12 gen hnt --- lst b - さりげなく体に触れる
+        - /12 gen hnt --- lst b - イケメンとのやり取りにヤキモキする
+        - /12 gen hnt --- lst b - 美人とのやり取りにヤキモキする
+        - /12 gen hnt --- lst b - 色っぽいリエルに生つばを飲む
+        - /12 gen hnt --- lst b - 一緒に寝ようと言われて狼狽する
+        - /12 gen hnt --- lst b - 
+        - /12 gen hnt --- lst b - 
+        - /12 gen hnt --- lst b - 
+        - /12 gen hnt --- lst b - 
+        - /12 gen hnt --- lst b - 
