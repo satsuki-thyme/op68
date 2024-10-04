@@ -80,15 +80,14 @@ hints:
       resolution:
         - /12 gen rev lst --- f - リエルが神人と分かっても変わらぬ愛を向ける
       hints:
-        - /12 gen hnt --- lst b - 手をつなぎたそうにする
+        - item: 根底にある思い
+          contents: 節度をわきまえないと一線を越えてしまう
+        - /12 gen hnt --- lst b - 手をつながれて驚く
         - /12 gen hnt --- lst b - キスしかける
-        - /12 gen hnt --- lst b - さりげなく体に触れる
+        - /12 gen hnt --- lst b - さりげなく体に触れられてドキドキする
         - /12 gen hnt --- lst b - イケメンとのやり取りにヤキモキする
         - /12 gen hnt --- lst b - 美人とのやり取りにヤキモキする
         - /12 gen hnt --- lst b - 色っぽいリエルに生つばを飲む
         - /12 gen hnt --- lst b - 一緒に寝ようと言われて狼狽する
-        - /12 gen hnt --- lst b - 
-        - /12 gen hnt --- lst b - 
-        - /12 gen hnt --- lst b - 
-        - /12 gen hnt --- lst b - 
-        - /12 gen hnt --- lst b - 
+        - /12 gen hnt --- lst b - 食事を一緒に摂ろうと言われてドキドキする
+        - /12 gen hnt --- lst b - 食事を分けっこしようと言われてドキドキする
