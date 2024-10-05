@@ -7,6 +7,10 @@
     - /11 gen sug --- --- f - リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
     - /11 gen hnt --- lst f - 晴れる
     - /10 gen fct --- --- f - 魔法都市へ向けて出発する
+    - /12 gen hnt --- lst b - 1 友達になってほしいと言われてドギマギする
+    - /12 gen hnt --- lst b - 1 手をつながれて驚く
+    - /12 gen hnt --- lst b - 2 食事を一緒に摂ろうと言われてドキドキする
+    - /12 gen hnt --- lst b - 2 食事を分けっこしようと言われてドキドキする
   forwerd connection:
     - 個別
   information:
@@ -19,6 +23,9 @@
   theme: 社会的欲求, 悲しみ
   contents:
     - /10 gen rsv --- nxt f - 魔王と聖騎士の噂を聞く
+    - /12 gen hnt --- lst b - 3 さりげなく体に触れられてドキドキする
+    - /12 gen hnt --- lst b - 4 同じ部屋に泊まると言われてドキドキする
+    - /12 gen hnt --- lst b - 4 一緒に寝ようと言われて狼狽する
   forwerd connection:
     - 個別
   information:
@@ -59,6 +66,7 @@
     - /10 gen trg --- --- f - 空間の亀裂を見つける
     - /10 gen fsd --- lst f - 〃
     - /10 gen rsv --- nxt f - 聖騎士の失敗と療養の噂を聞く
+    - /12 gen hnt --- lst b -  耳元でささやく
   forwerd connection:
     - 個別
   information:
@@ -70,6 +78,7 @@
 6:
   theme: 社会的欲求, 嫌悪
   contents:
+    - /12 gen hnt --- lst b - 5 イケメンとのやり取りにヤキモキする
     - /10 gen trg --- --- f - 失敗した聖騎士との邂逅
   forwerd connection:
     - 個別
@@ -96,6 +105,7 @@
   contents:
     - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
     - /11 gen hnt --- lst b - 気を抜いていて輝いてしまう
+    - /12 gen hnt --- lst b -  髪をなでられてドキドキする
   forwerd connection:
     - 個別
   information:
@@ -107,6 +117,7 @@
 9:
   theme: 自己実現の欲求, 嫌悪
   contents:
+    - /12 gen hnt --- lst b - 6 美人とのやり取りにヤキモキする
     - /10 gen trg --- --- f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
     - /10 gen fsd --- lst f b 〃
   forwerd connection:
@@ -134,6 +145,7 @@
   contents:
     - /10 gen fct --- --- f b 霊樹の採取
     - /11 gen hnt --- lst f - 神獣が服従する
+    - /12 gen hnt --- lst b -  見つめられてドキドキする
   forwerd connection:
     - 個別
   information:
@@ -148,6 +160,9 @@
     - /10 gen fct --- --- f - 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
     - /10 gen fsd --- lst f - 魔王には侵理の力があると知る
     - /10 gen fsd --- lst f - 魔王が幻霊と手を組んでいると知る
+    - /12 gen hnt --- lst b - 7 色っぽいリエルに生つばを飲む
+    - /12 gen hnt --- lst f - 7 キスしかける
+    - /11 gen hnt --- lst f - キスされたら襲いかかるつもりでいた
   forwerd connection:
     - 個別
   information:
@@ -173,6 +188,7 @@
   contents:
     - 
     - /11 gen hnt --- lst f - 恵みの雨が降る
+    - /12 gen hnt --- lst b -  サプライズギフトでドキドキする
   forwerd connection:
     - 個別
   information:
@@ -187,6 +203,7 @@
   contents:
     - 
     - /11 gen hnt --- lst f - 晴れる
+    - /12 gen hnt --- lst b -  後ろからハグ
   forwerd connection:
     - 個別
   information:
@@ -199,6 +216,7 @@
   theme: 安全・安定の欲求, 恐怖
   contents:
     - /10 gen rsv --- nxt f - 空間の亀裂の噂を聞く
+    - /12 gen hnt --- lst b -  食べさせっこをしてドキドキする
   forwerd connection:
     - 個別
   information:
@@ -225,6 +243,7 @@
   theme: 安全・安定の欲求, 驚き
   contents:
     - 
+    - /12 gen hnt --- lst b -  頭をなでられてドキドキする
   forwerd connection:
     - 個別
   information:
@@ -237,6 +256,7 @@
   theme: 安全・安定の欲求, 嫌悪
   contents:
     - /10 gen fct --- --- f - 特訓を終えた聖騎士と再会する
+    - /12 gen hnt --- lst b -  一緒にシャワー
   forwerd connection:
     - 個別
   information:
@@ -251,6 +271,7 @@
     - 
     - /10 gen fct --- --- f - 心配なので前線近くを旅する
     - /11 gen hnt --- lst b - レイティアが神の気配を感じる
+    - /12 gen hnt --- lst b -  一緒に料理する
   forwerd connection:
     - 聖騎士
   information:
@@ -275,6 +296,7 @@
   theme: 自由の欲求, 嫌悪
   contents:
     - 
+    - /12 gen hnt --- lst b -  手紙をやり取りしてドキドキする
   forwerd connection:
     - 個別
   information:
@@ -288,6 +310,7 @@
   contents:
     - 
     - /11 gen hnt --- lst f - 圧倒的な力を見せる
+    - /12 gen hnt --- lst b -  膝枕
   forwerd connection:
     - 個別
   information:
