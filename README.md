@@ -1,16 +1,18 @@
 # 魔女の旅々みたいな小説
 ## 文書
-### 設計 全体
+### 設計
+#### 全体
 - plan/00/title-idea.md: タイトル案
 
 
-### 設計 第1章
+#### 第1章
 - plan/01/character-base.yml: キャラクターの基本設計
 - plan/01/init.yml:           初期設定
 - plan/01/launch.md:          立ち上げ
 
 
-### プロット 第1章
+### プロット
+### 第1章
 - plot/01/themes.yml:          テーマ設定 第1章
 - plot/01/elements.yml:        プロット要素 第1章
 - plot/01/outline.yml:         プロット概要 第1章
@@ -18,7 +20,8 @@
 - plot/01/information.yml:     情報提示 第1章
 
 
-### メモ 第1章
+### メモ
+### 第1章
 - memo/01/mem-001.md: ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る
 
 
@@ -37,6 +40,6 @@
 
 
 ### 廃止
-#### 廃止 before-2024-09-21
+#### before-2024-09-21
 - rejected/before-2024-09-21/plot/elements.yml: プロット 要素
 - rejected/before-2024-09-21/plot/outline.yml:  プロット 概要
