@@ -14,9 +14,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 2:
@@ -29,9 +44,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 3:
@@ -41,9 +71,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 4:
@@ -55,9 +100,24 @@
   forwerd connection:
     - 聖騎士
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 5:
@@ -70,9 +130,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 6:
@@ -83,9 +158,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 7:
@@ -95,9 +185,24 @@
   forwerd connection:
     - 聖騎士
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 8:
@@ -109,9 +214,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 9:
@@ -123,9 +243,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 10:
@@ -135,9 +270,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 11:
@@ -149,9 +299,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 12:
@@ -166,9 +331,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 13:
@@ -178,10 +358,24 @@
   forwerd connection:
     - 聖騎士
   information:
-    - 
-  mystery:
-    - 
-
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 14:
   theme: 安全・安定の欲求, 喜び
@@ -192,9 +386,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 15:
@@ -207,9 +416,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 16:
@@ -220,9 +444,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 17:
@@ -234,9 +473,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 18:
@@ -247,9 +501,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 19:
@@ -260,9 +529,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 20:
@@ -275,9 +559,24 @@
   forwerd connection:
     - 聖騎士
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 21:
@@ -287,9 +586,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 22:
@@ -300,9 +614,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 23:
@@ -314,9 +643,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 24:
@@ -327,9 +671,24 @@
   forwerd connection:
     - 個別
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
 
 
 25:
@@ -342,6 +701,21 @@
   forwerd connection:
     - 聖騎士
   information:
-    - 
-  mystery:
-    - 
+    worldview:
+      - 
+    characters:
+      - item: リエル
+        contents:
+          - 
+      - item: レイティア
+        contents:
+          - 
+    story:
+      - 
+    mystery:
+      current:
+        - 
+      takeover:
+        - 
+      unraveling:
+        - 
