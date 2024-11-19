@@ -2,838 +2,1081 @@
 1:
   theme: 社会的欲求, 喜び
   contents:
-    - /00 gen fct --- --- f - / 01 00 001 リエルとレイティアが剣を装備する
-    - /12 gen fct --- --- f - / 01 00 002 レイティアが魔法で分析する
-    - /11 gen hnt --- lst f - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-    - /12 gen sug --- --- f -            レイティア「私はリエル様が何者でも……、愛します！」
-    - /11 gen sug --- --- f -            リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
-    - /11 gen hnt --- lst f - /m01 00 001 晴れる
-    - /10 gen fct --- --- f -            魔法都市へ向けて出発する
-    - /12 gen hnt --- lst b -            1 友達になってほしいと言われてドギマギする
-    - /12 gen hnt --- lst b -            1 手をつながれて驚く
-    - /12 gen hnt --- lst b -            2 食事を一緒に摂ろうと言われてドキドキする
-    - /12 gen hnt --- lst b -            2 食事を分けっこしようと言われてドキドキする
-  forwerd connection:
-    - 個別
+    - /00 gen fct --- --- f - / 01 001 リエルとレイティアが剣を装備する
+    - /12 gen fct --- --- f - / 01 002 レイティアが魔法で分析する
+    - /11 gen hnt --- lst f - / 01 003 レイティアが魔法で分析しても種族が隠されている
+    - /12 gen sug --- --- f -          レイティア「私はリエル様が何者でも……、愛します！」
+    - /11 gen sug --- --- f -          リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
+    - /11 gen hnt --- lst f - / 01 004 晴れる
+    - /10 gen fct --- --- f -          魔法都市へ向けて出発する
+    - /12 gen hnt --- lst b -          1 友達になってほしいと言われてドギマギする
+    - /12 gen hnt --- lst b -          1 手をつながれて驚く
+    - /12 gen hnt --- lst b -          2 食事を一緒に摂ろうと言われてドキドキする
+    - /12 gen hnt --- lst b -          2 食事を分けっこしようと言われてドキドキする
+  
   information:
     worldview:
-      - / 01 00 001 リエルとレイティアが剣を装備する
-      - / 01 00 002 レイティアが魔法で分析する
+      history:
+        / 01 001 リエルとレイティアが剣を装備する
+      fantasy:
+        / 01 002 レイティアが魔法で分析する
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          / 01 003 レイティアが魔法で分析しても種族が隠されている => /m01 001
+          / 01 004 晴れる => /m01 001
+          /m01 001 リエルの秘密
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      takeover:
-        - 
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 2:
   theme: 社会的欲求, 悲しみ
   contents:
-    - /10 gen rsv --- nxt f - / 02 00 001 魔王と聖騎士の噂を聞く
-    - /12 gen hnt --- lst b -            3 さりげなく体に触れられてドキドキする
-    - /12 gen hnt --- lst b -            4 同じ部屋に泊まると言われてドキドキする
-    - /12 gen hnt --- lst b -            4 一緒に寝ようと言われて狼狽する
-  forwerd connection:
-    - 個別
+    - /10 gen rsv --- nxt f - / 02 001 魔王と聖騎士の噂を聞く
+    - /12 gen hnt --- lst b -          3 さりげなく体に触れられてドキドキする
+    - /12 gen hnt --- lst b -          4 同じ部屋に泊まると言われてドキドキする
+    - /12 gen hnt --- lst b -          4 一緒に寝ようと言われて狼狽する
+  
   information:
     worldview:
-      - / 02 00 001 魔王と聖騎士の噂を聞く
+      history:
+        
+      fantasy:
+        / 02 001 魔王と聖騎士の噂を聞く
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 02 00 001 魔王と聖騎士の噂を聞く
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 魔王と聖騎士
+      contents:
+        / 02 001 魔王と聖騎士の噂を聞く
+    background:
+    - item: 
+      contents:
+        
 
 3:
   theme: 社会的欲求, 怒り
   contents:
-    - /10 gen trg --- --- f b            聖騎士との出会いと反目
-  forwerd connection:
-    - 個別
+    - /10 gen trg --- --- f b / 03 001 聖騎士との出会いと反目
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        / 03 001 聖騎士との出会いと反目
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 4:
   theme: 社会的欲求, 恐怖
   contents:
-    - /10 gen fct --- --- f -            聖騎士と同じ門からは出られず道を変える
-    - /10 gen rsv --- nxt f - / 04 00 001 空間の亀裂の噂を聞く
-    - /11 gen hnt --- lst f - /m04 00 001 晴れる
-  forwerd connection:
-    - 聖騎士
+    - /10 gen fct --- --- f -          聖騎士と同じ門からは出られず道を変える
+    - /10 gen rsv --- nxt f - / 04 001 空間の亀裂の噂を聞く
+    - /11 gen hnt --- lst f - / 04 002 晴れる
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        / 04 001 空間の亀裂の噂を聞く
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          / 04 002 晴れる => /m04 001
+          /m04 001 リエルの秘密
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 04 00 001 空間の亀裂の噂を聞く
-    mystery:
-      current:
-        - /m04 00 001 晴れる
-      takeover:
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 幻霊
+      contents:
+        / 04 001 空間の亀裂の噂を聞く
+    background:
+    - item: 
+      contents:
+        
 
 5:
   theme: 社会的欲求, 驚き
   contents:
-    - /10 gen trg --- --- f - / 05 00 001 空間の亀裂を見つける
-    - /10 gen fsd --- lst f - / 05 00 001 〃
-    - /10 gen rsv --- nxt f - / 05 00 002 聖騎士の失敗と療養の噂を聞く
-    - /12 gen hnt --- lst b -            耳元でささやく
-  forwerd connection:
-    - 個別
+    - /10 gen trg --- --- f - / 05 001 空間の亀裂を見つける
+    - /10 gen fsd --- lst f - / 05 001 〃
+    - /10 gen rsv --- nxt f - / 05 002 聖騎士の失敗と療養の噂を聞く
+    - /12 gen hnt --- lst b -          耳元でささやく
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        / 05 001 空間の亀裂を見つける
+        / 05 002 聖騎士の失敗と療養の噂を聞く
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 05 00 001 空間の亀裂を見つける
-      - / 05 00 002 聖騎士の失敗と療養の噂を聞く
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 幻霊
+      contents:
+        / 05 001 空間の亀裂を見つける
+    - item: 魔王と聖騎士
+      contents:
+        / 05 002 聖騎士の失敗と療養の噂を聞く
+    background:
+    - item: 
+      contents:
+        
 
 6:
   theme: 社会的欲求, 嫌悪
   contents:
-    - /12 gen hnt --- lst b -            5 イケメンとのやり取りにヤキモキする
-    - /10 gen trg --- --- f -            失敗した聖騎士との邂逅
-  forwerd connection:
-    - 個別
+    - /12 gen hnt --- lst b - / 00 000 5 イケメンとのやり取りにヤキモキする
+    - /10 gen trg --- --- f - / 00 000 失敗した聖騎士との邂逅
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 7:
   theme: 自己実現の欲求, 恐怖
   contents:
-    - /10 gen fct --- --- f -            霊樹を取りにいく旅を始める
-  forwerd connection:
-    - 聖騎士
+    - /10 gen fct --- --- f - / 00 000 霊樹を取りにいく旅を始める
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 8:
   theme: 自己実現の欲求, 驚き
   contents:
-    - /10 gen rsv --- nxt f - / 08 00 001 空間の亀裂の噂を聞く
-    - /11 gen hnt --- lst b - /m08 00 001 気を抜いていて輝いてしまう
-    - /12 gen hnt --- lst b -            髪をなでられてドキドキする
-  forwerd connection:
-    - 個別
+    - /10 gen rsv --- nxt f - / 00 000 空間の亀裂の噂を聞く
+    - /11 gen hnt --- lst b - / 00 000 気を抜いていて輝いてしまう
+    - /12 gen hnt --- lst b - / 00 000 髪をなでられてドキドキする
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 08 00 001 空間の亀裂の噂を聞く
-    mystery:
-      current:
-        - /m08 00 001 気を抜いていて輝いてしまう
-      takeover:
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 9:
   theme: 自己実現の欲求, 嫌悪
   contents:
-    - /12 gen hnt --- lst b -            6 美人とのやり取りにヤキモキする
-    - /10 gen trg --- --- f b / 09 00 001 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
-    - /10 gen fsd --- lst f b / 09 00 001 〃
-  forwerd connection:
-    - 個別
+    - /12 gen hnt --- lst b - / 00 000 6 美人とのやり取りにヤキモキする
+    - /10 gen trg --- --- f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
+    - /10 gen fsd --- lst f b 〃
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 09 00 001 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 10:
   theme: 自己実現の欲求, 喜び
   contents:
     - 
-  forwerd connection:
-    - 個別
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 11:
   theme: 自己実現の欲求, 悲しみ
   contents:
     - /10 gen fct --- --- f b            霊樹の採取
-    - /11 gen hnt --- lst f - /m11 00 001 神獣が服従する
-    - /12 gen hnt --- lst b -            見つめられてドキドキする
-  forwerd connection:
-    - 個別
+    - /11 gen hnt --- lst f - / 00 000 神獣が服従する
+    - /12 gen hnt --- lst b - / 00 000 見つめられてドキドキする
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m11 00 001 神獣が服従する
-      takeover:
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 12:
   theme: 自己実現の欲求, 怒り
   contents:
-    - /10 gen fct --- --- f -            聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
-    - /10 gen fsd --- lst f - / 12 00 001 魔王には侵理の力があると知る
-    - /10 gen fsd --- lst f - / 12 00 002 魔王が幻霊と手を組んでいると知る
-    - /12 gen hnt --- lst b -            7 色っぽいリエルに生つばを飲む
-    - /12 gen hnt --- lst f -            7 キスしかける
-    - /11 gen hnt --- lst f -            キスされたら襲いかかるつもりでいた
-  forwerd connection:
-    - 個別
+    - /10 gen fct --- --- f - / 00 000 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
+    - /10 gen fsd --- lst f - / 00 000 魔王には侵理の力があると知る
+    - /10 gen fsd --- lst f - / 00 000 魔王が幻霊と手を組んでいると知る
+    - /12 gen hnt --- lst b - / 00 000 7 色っぽいリエルに生つばを飲む
+    - /12 gen hnt --- lst f - / 00 000 7 キスしかける
+    - /11 gen hnt --- lst f - / 00 000 キスされたら襲いかかるつもりでいた
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 12 00 001 魔王には侵理の力があると知る
-      - / 12 00 002 魔王が幻霊と手を組んでいると知る
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 13:
   theme: 水着回
   contents:
-    - /10 gen fct --- --- f -            暇つぶしに近場を旅する
-  forwerd connection:
-    - 聖騎士
+    - /10 gen fct --- --- f - / 00 000 暇つぶしに近場を旅する
+
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 14:
   theme: 安全・安定の欲求, 喜び
   contents:
     - 
-    - /11 gen hnt --- lst f - /m14 00 001 恵みの雨が降る
-    - /12 gen hnt --- lst b -            サプライズギフトでドキドキする
-  forwerd connection:
-    - 個別
+    - /11 gen hnt --- lst f - / 00 000 恵みの雨が降る
+    - /12 gen hnt --- lst b - / 00 000 サプライズギフトでドキドキする
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m14 00 001 恵みの雨が降る
-      takeover:
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 15:
   theme: 安全・安定の欲求, 悲しみ
   notice: 14の翌日
   contents:
     - 
-    - /11 gen hnt --- lst f - /m15 00 001 晴れる
-    - /12 gen hnt --- lst b -            後ろからハグ
-  forwerd connection:
-    - 個別
+    - /11 gen hnt --- lst f - / 00 000 晴れる
+    - /12 gen hnt --- lst b - / 00 000 後ろからハグ
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m15 00 001 晴れる
-      takeover:
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 16:
   theme: 安全・安定の欲求, 恐怖
   contents:
-    - /10 gen rsv --- nxt f - / 16 00 001 空間の亀裂の噂を聞く
-    - /12 gen hnt --- lst b -            食べさせっこをしてドキドキする
-  forwerd connection:
-    - 個別
+    - /10 gen rsv --- nxt f - / 00 000 空間の亀裂の噂を聞く
+    - /12 gen hnt --- lst b - / 00 000 食べさせっこをしてドキドキする
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 16 00 001 空間の亀裂の噂を聞く
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 17:
   theme: 安全・安定の欲求, 怒り
   contents:
-    - /10 gen trg --- --- f b / 17 00 001 ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
-    - /10 gen fsd --- lst f b / 17 00 001 〃
-    - /11 gen hnt --- lst ? - /m17 00 001 気を抜いていて足下に草花が繁茂する
-  forwerd connection:
-    - 個別
+    - /10 gen trg --- --- f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
+    - /10 gen fsd --- lst f b 〃
+    - /11 gen hnt --- lst ? - 気を抜いていて足下に草花が繁茂する
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-      takeover:
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 18:
   theme: 安全・安定の欲求, 驚き
   contents:
     - 
-    - /12 gen hnt --- lst b -            頭をなでられてドキドキする
-  forwerd connection:
-    - 個別
+    - /12 gen hnt --- lst b - / 00 000 頭をなでられてドキドキする
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 19:
   theme: 安全・安定の欲求, 嫌悪
   contents:
-    - /10 gen fct --- --- f -            特訓を終えた聖騎士と再会する
-    - /12 gen hnt --- lst b -            一緒にシャワー
-  forwerd connection:
-    - 個別
+    - /10 gen fct --- --- f - / 00 000 特訓を終えた聖騎士と再会する
+    - /12 gen hnt --- lst b - / 00 000 一緒にシャワー
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 20:
   theme: 自由の欲求, 怒り
   contents:
     - 
-    - /10 gen fct --- --- f -            心配なので前線近くを旅する
-    - /11 gen hnt --- lst b - /m20 00 001 レイティアが神の気配を感じる
-    - /12 gen hnt --- lst b -            一緒に料理する
-  forwerd connection:
-    - 聖騎士
+    - /10 gen fct --- --- f - / 00 000 心配なので前線近くを旅する
+    - /11 gen hnt --- lst b - / 00 000 レイティアが神の気配を感じる
+    - /12 gen hnt --- lst b - / 00 000 一緒に料理する
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m20 00 001 レイティアが神の気配を感じる
-      takeover:
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 21:
   theme: 自由の欲求, 驚き
   contents:
     - 
-  forwerd connection:
-    - 個別
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m20 00 001 レイティアが神の気配を感じる
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 22:
   theme: 自由の欲求, 嫌悪
   contents:
     - 
-    - /12 gen hnt --- lst b -            手紙をやり取りしてドキドキする
-  forwerd connection:
-    - 個別
+    - /12 gen hnt --- lst b - / 00 000 手紙をやり取りしてドキドキする
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m20 00 001 レイティアが神の気配を感じる
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 23:
   theme: 自由の欲求, 喜び
   contents:
     - 
-    - /11 gen hnt --- lst f b /m23 00 001 圧倒的な力を見せる
-    - /12 gen hnt --- lst b -            膝枕
-  forwerd connection:
-    - 個別
+    - /11 gen hnt --- lst f b 圧倒的な力を見せる
+    - /12 gen hnt --- lst b - / 00 000 膝枕
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - /m23 00 001 圧倒的な力を見せる
-      takeover:
-        - /m20 00 001 レイティアが神の気配を感じる
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 24:
   theme: 自由の欲求, 悲しみ
   contents:
-    - /10 gen fct --- --- f -            成功した聖騎士との邂逅
-    - /10 gen fsd --- lst f - / 24 00 001 魔王が魔法都市を気にかけていたと知る
-  forwerd connection:
-    - 個別
+    - /10 gen fct --- --- f - / 00 000 成功した聖騎士との邂逅
+    - /10 gen fsd --- lst f - / 00 000 魔王が魔法都市を気にかけていたと知る
+  
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - / 24 00 001 魔王が魔法都市を気にかけていたと知る
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m23 00 001 圧倒的な力を見せる
-        - /m20 00 001 レイティアが神の気配を感じる
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - 
-
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
 
 25:
   theme: 自由の欲求, 恐怖
   contents:
-    - /10 gen fct --- --- f -            魔法都市に着く
-    - /01 gen rsl lst --- f -            魔法都市で境界のオーブを見る
-    - /11 gen inv lst --- f - / 25 00 001 レイティア「世界を、お救いになったのですね……」
-    - /12 gen inv lst --- f -            リエルが神人と分かっても抱きしめる
-  forwerd connection:
-    - 聖騎士
+    - /10 gen fct --- --- f - / 00 000 魔法都市に着く
+    - /01 gen rsl lst --- f - / 00 000 魔法都市で境界のオーブを見る
+    - /11 gen inv lst --- f - / 00 000 レイティア「世界を、お救いになったのですね……」
+    - /12 gen inv lst --- f - / 00 000 リエルが神人と分かっても抱きしめる
+
   information:
     worldview:
-      - 
+      history:
+        
+      fantasy:
+        
+      environment:
+        
     characters:
       - item: リエル
-        contents:
-          - 
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
       - item: レイティア
-        contents:
-          - 
-    story:
-      - 
-    mystery:
-      current:
-        - 
-      takeover:
-        - /m23 00 001 圧倒的な力を見せる
-        - /m20 00 001 レイティアが神の気配を感じる
-        - /m17 00 001 気を抜いていて足下に草花が繁茂する
-        - /m15 00 001 晴れる
-        - /m14 00 001 恵みの雨が降る
-        - /m11 00 001 神獣が服従する
-        - /m08 00 001 気を抜いていて輝いてしまう
-        - /m04 00 001 晴れる
-        - /m01 00 001 レイティアが魔法で分析しても種族が隠されている
-        - /m01 00 001 晴れる
-      unraveling:
-        - / 25 00 001 レイティア「世界を、お救いになったのですね……」
+        personality:
+          
+        past:
+          
+        thought:
+          
+        etc:
+          
+    foreground:
+    - item: 
+      contents:
+        
+    background:
+    - item: 
+      contents:
+        
