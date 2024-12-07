@@ -2,17 +2,17 @@
 1:
   theme: 社会的欲求, 喜び
   contents:
-    - /00 gen fct --- --- f - / 01 001 リエルとレイティアが剣を装備する
-    - /12 gen fct --- --- f - / 01 002 レイティアが魔法で分析する
-    - /11 gen hnt --- lst f - / 01 003 レイティアが魔法で分析しても種族が隠されている
-    - /12 gen sug --- --- f -          レイティア「私はリエル様が何者でも……、愛します！」
-    - /11 gen sug --- --- f -          リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
-    - /11 gen hnt --- lst f - / 01 004 晴れる
-    - /10 gen fct --- --- f -          魔法都市へ向けて出発する
-    - /12 gen hnt --- lst b -          1 友達になってほしいと言われてドギマギする
-    - /12 gen hnt --- lst b -          1 手をつながれて驚く
-    - /12 gen hnt --- lst b -          2 食事を一緒に摂ろうと言われてドキドキする
-    - /12 gen hnt --- lst b -          2 食事を分けっこしようと言われてドキドキする
+    - /011 gen --- f - / 01 001 リエルとレイティアが剣を装備する
+    - /121 gen --- f - / 01 002 レイティアが魔法で分析する
+    - /111 hnt lst f - / 01 003 レイティアが魔法で分析しても種族が隠されている
+    - /121 sug lst f -          レイティア「私はリエル様が何者でも……、愛します！」
+    - /111 sug lst f -          リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
+    - /111 hnt lst f - / 01 004 晴れる
+    - /011 gen --- f -          魔法都市へ向けて出発する
+    - /121 hnt lst b -          1 友達になってほしいと言われてドギマギする
+    - /121 hnt lst b -          1 手をつながれて驚く
+    - /121 hnt lst b -          2 食事を一緒に摂ろうと言われてドキドキする
+    - /121 hnt lst b -          2 食事を分けっこしようと言われてドキドキする
   
   information:
     worldview:
@@ -55,10 +55,10 @@
 2:
   theme: 社会的欲求, 悲しみ
   contents:
-    - /10 gen rsv --- nxt f - / 02 001 魔王と聖騎士の噂を聞く
-    - /12 gen hnt --- lst b -          3 さりげなく体に触れられてドキドキする
-    - /12 gen hnt --- lst b -          4 同じ部屋に泊まると言われてドキドキする
-    - /12 gen hnt --- lst b -          4 一緒に寝ようと言われて狼狽する
+    - /101 rsv nxt f - / 02 001 魔王と聖騎士の噂を聞く
+    - /121 hnt lst b -          3 さりげなく体に触れられてドキドキする
+    - /121 hnt lst b -          4 同じ部屋に泊まると言われてドキドキする
+    - /121 hnt lst b -          4 一緒に寝ようと言われて狼狽する
   
   information:
     worldview:
@@ -99,7 +99,7 @@
 3:
   theme: 社会的欲求, 怒り
   contents:
-    - /10 gen trg --- --- f b / 03 001 聖騎士との出会いと反目
+    - /101 rsv cat f b / 03 001 聖騎士との出会いと反目
   
   information:
     worldview:
@@ -140,9 +140,9 @@
 4:
   theme: 社会的欲求, 恐怖
   contents:
-    - /10 gen fct --- --- f -          聖騎士と同じ門からは出られず道を変える
-    - /10 gen rsv --- nxt f - / 04 001 空間の亀裂の噂を聞く
-    - /11 gen hnt --- lst f - / 04 002 晴れる
+    - /101 gen --- f -          聖騎士と同じ門からは出られず道を変える
+    - /101 rsv nxt f - / 04 001 空間の亀裂の噂を聞く
+    - /111 hnt lst f - / 04 002 晴れる
   
   information:
     worldview:
@@ -184,10 +184,10 @@
 5:
   theme: 社会的欲求, 驚き
   contents:
-    - /10 gen trg --- --- f - / 05 001 空間の亀裂を見つける
-    - /10 gen fsd --- lst f - / 05 001 〃
-    - /10 gen rsv --- nxt f - / 05 002 聖騎士の失敗と療養の噂を聞く
-    - /12 gen hnt --- lst b -          耳元でささやく
+    - /101 rsv cat f - / 05 001 空間の亀裂を見つける
+    - /101 fsd lst f - / 05 001 〃
+    - /101 rsv nxt f - / 05 002 聖騎士の失敗と療養の噂を聞く
+    - /121 hnt lst b -          耳元でささやく
   
   information:
     worldview:
@@ -232,8 +232,8 @@
 6:
   theme: 社会的欲求, 嫌悪
   contents:
-    - /12 gen hnt --- lst b - / 00 000 5 イケメンとのやり取りにヤキモキする
-    - /10 gen trg --- --- f - / 00 000 失敗した聖騎士との邂逅
+    - /121 hnt lst b - / 00 000 5 イケメンとのやり取りにヤキモキする
+    - /101 rsv cat f - / 00 000 失敗した聖騎士との邂逅
   
   information:
     worldview:
@@ -274,7 +274,7 @@
 7:
   theme: 自己実現の欲求, 恐怖
   contents:
-    - /10 gen fct --- --- f - / 00 000 霊樹を取りにいく旅を始める
+    - /101 gen --- f - / 00 000 霊樹を取りにいく旅を始める
   
   information:
     worldview:
@@ -315,9 +315,9 @@
 8:
   theme: 自己実現の欲求, 驚き
   contents:
-    - /10 gen rsv --- nxt f - / 00 000 空間の亀裂の噂を聞く
-    - /11 gen hnt --- lst b - / 00 000 気を抜いていて輝いてしまう
-    - /12 gen hnt --- lst b - / 00 000 髪をなでられてドキドキする
+    - /101 rsv nxt f - / 00 000 空間の亀裂の噂を聞く
+    - /111 hnt lst b - / 00 000 気を抜いていて輝いてしまう
+    - /121 hnt lst b - / 00 000 髪をなでられてドキドキする
   
   information:
     worldview:
@@ -358,9 +358,9 @@
 9:
   theme: 自己実現の欲求, 嫌悪
   contents:
-    - /12 gen hnt --- lst b - / 00 000 6 美人とのやり取りにヤキモキする
-    - /10 gen trg --- --- f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
-    - /10 gen fsd --- lst f b 〃
+    - /121 hnt lst b - / 00 000 6 美人とのやり取りにヤキモキする
+    - /101 rsv cat f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
+    - /101 fsd lst f b 〃
   
   information:
     worldview:
@@ -442,9 +442,9 @@
 11:
   theme: 自己実現の欲求, 悲しみ
   contents:
-    - /10 gen fct --- --- f b            霊樹の採取
-    - /11 gen hnt --- lst f - / 00 000 神獣が服従する
-    - /12 gen hnt --- lst b - / 00 000 見つめられてドキドキする
+    - /101 gen --- f b            霊樹の採取
+    - /111 hnt lst f - / 00 000 神獣が服従する
+    - /121 hnt lst b - / 00 000 見つめられてドキドキする
   
   information:
     worldview:
@@ -485,12 +485,12 @@
 12:
   theme: 自己実現の欲求, 怒り
   contents:
-    - /10 gen fct --- --- f - / 00 000 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
-    - /10 gen fsd --- lst f - / 00 000 魔王には侵理の力があると知る
-    - /10 gen fsd --- lst f - / 00 000 魔王が幻霊と手を組んでいると知る
-    - /12 gen hnt --- lst b - / 00 000 7 色っぽいリエルに生つばを飲む
-    - /12 gen hnt --- lst f - / 00 000 7 キスしかける
-    - /11 gen hnt --- lst f - / 00 000 キスされたら襲いかかるつもりでいた
+    - /101 gen --- f - / 00 000 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
+    - /101 fsd lst f - / 00 000 魔王には侵理の力があると知る
+    - /101 fsd lst f - / 00 000 魔王が幻霊と手を組んでいると知る
+    - /121 hnt lst b - / 00 000 7 色っぽいリエルに生つばを飲む
+    - /121 hnt lst f - / 00 000 7 キスしかける
+    - /111 hnt lst f - / 00 000 キスされたら襲いかかるつもりでいた
   
   information:
     worldview:
@@ -531,7 +531,7 @@
 13:
   theme: 水着回
   contents:
-    - /10 gen fct --- --- f - / 00 000 暇つぶしに近場を旅する
+    - /101 gen --- f - / 00 000 暇つぶしに近場を旅する
 
   information:
     worldview:
@@ -573,8 +573,8 @@
   theme: 安全・安定の欲求, 喜び
   contents:
     - 
-    - /11 gen hnt --- lst f - / 00 000 恵みの雨が降る
-    - /12 gen hnt --- lst b - / 00 000 サプライズギフトでドキドキする
+    - /111 hnt lst f - / 00 000 恵みの雨が降る
+    - /121 hnt lst b - / 00 000 サプライズギフトでドキドキする
   
   information:
     worldview:
@@ -617,8 +617,8 @@
   notice: 14の翌日
   contents:
     - 
-    - /11 gen hnt --- lst f - / 00 000 晴れる
-    - /12 gen hnt --- lst b - / 00 000 後ろからハグ
+    - /111 hnt lst f - / 00 000 晴れる
+    - /121 hnt lst b - / 00 000 後ろからハグ
   
   information:
     worldview:
@@ -659,8 +659,8 @@
 16:
   theme: 安全・安定の欲求, 恐怖
   contents:
-    - /10 gen rsv --- nxt f - / 00 000 空間の亀裂の噂を聞く
-    - /12 gen hnt --- lst b - / 00 000 食べさせっこをしてドキドキする
+    - /101 rsv nxt f - / 00 000 空間の亀裂の噂を聞く
+    - /121 hnt lst b - / 00 000 食べさせっこをしてドキドキする
   
   information:
     worldview:
@@ -701,9 +701,9 @@
 17:
   theme: 安全・安定の欲求, 怒り
   contents:
-    - /10 gen trg --- --- f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
-    - /10 gen fsd --- lst f b 〃
-    - /11 gen hnt --- lst ? - 気を抜いていて足下に草花が繁茂する
+    - /101 rsv cat f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
+    - /101 fsd lst f b 〃
+    - /111 hnt lst ? - 気を抜いていて足下に草花が繁茂する
   
   information:
     worldview:
@@ -745,7 +745,7 @@
   theme: 安全・安定の欲求, 驚き
   contents:
     - 
-    - /12 gen hnt --- lst b - / 00 000 頭をなでられてドキドキする
+    - /121 hnt lst b - / 00 000 頭をなでられてドキドキする
   
   information:
     worldview:
@@ -786,8 +786,8 @@
 19:
   theme: 安全・安定の欲求, 嫌悪
   contents:
-    - /10 gen fct --- --- f - / 00 000 特訓を終えた聖騎士と再会する
-    - /12 gen hnt --- lst b - / 00 000 一緒にシャワー
+    - /101 gen --- f - / 00 000 特訓を終えた聖騎士と再会する
+    - /121 hnt lst b - / 00 000 一緒にシャワー
   
   information:
     worldview:
@@ -829,9 +829,9 @@
   theme: 自由の欲求, 怒り
   contents:
     - 
-    - /10 gen fct --- --- f - / 00 000 心配なので前線近くを旅する
-    - /11 gen hnt --- lst b - / 00 000 レイティアが神の気配を感じる
-    - /12 gen hnt --- lst b - / 00 000 一緒に料理する
+    - /101 gen --- f - / 00 000 心配なので前線近くを旅する
+    - /111 hnt lst b - / 00 000 レイティアが神の気配を感じる
+    - /121 hnt lst b - / 00 000 一緒に料理する
   
   information:
     worldview:
@@ -914,7 +914,7 @@
   theme: 自由の欲求, 嫌悪
   contents:
     - 
-    - /12 gen hnt --- lst b - / 00 000 手紙をやり取りしてドキドキする
+    - /121 hnt lst b - / 00 000 手紙をやり取りしてドキドキする
   
   information:
     worldview:
@@ -956,8 +956,8 @@
   theme: 自由の欲求, 喜び
   contents:
     - 
-    - /11 gen hnt --- lst f b 圧倒的な力を見せる
-    - /12 gen hnt --- lst b - / 00 000 膝枕
+    - /111 hnt lst f b 圧倒的な力を見せる
+    - /121 hnt lst b - / 00 000 膝枕
   
   information:
     worldview:
@@ -998,8 +998,8 @@
 24:
   theme: 自由の欲求, 悲しみ
   contents:
-    - /10 gen fct --- --- f - / 00 000 成功した聖騎士との邂逅
-    - /10 gen fsd --- lst f - / 00 000 魔王が魔法都市を気にかけていたと知る
+    - /101 gen --- f - / 00 000 成功した聖騎士との邂逅
+    - /101 fsd lst f - / 00 000 魔王が魔法都市を気にかけていたと知る
   
   information:
     worldview:
@@ -1040,10 +1040,10 @@
 25:
   theme: 自由の欲求, 恐怖
   contents:
-    - /10 gen fct --- --- f - / 00 000 魔法都市に着く
-    - /01 gen rsl lst --- f - / 00 000 魔法都市で境界のオーブを見る
-    - /11 gen inv lst --- f - / 00 000 レイティア「世界を、お救いになったのですね……」
-    - /12 gen inv lst --- f - / 00 000 リエルが神人と分かっても抱きしめる
+    - /101 gen --- f - / 00 000 魔法都市に着く
+    - /011 rsv cat f - / 00 000 魔法都市で境界のオーブを見る
+    - /111 fsd cat f - / 00 000 レイティア「世界を、お救いになったのですね……」
+    - /121 fsd cat f - / 00 000 リエルが神人と分かっても抱きしめる
 
   information:
     worldview:
