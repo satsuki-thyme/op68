@@ -3,11 +3,11 @@
 foreshadowing:
   - item: 境界のオーブ
     contents:
-      ref: thi-002.md 
+      ref: thi-002.md
       answer:
         - 境界のオーブに魔王の侵理の力が作用して異常が発生して幻界とつながりそうだと知る
       resolution:
-        - /011 rsv cat f - 魔法都市で境界のオーブを見る
+        - /011 fsd rec f - 魔法都市で境界のオーブを見る
       foreshadowing:
         - /011 fsd lst f - 空間の亀裂を見つける
         - /011 fsd lst f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
@@ -27,7 +27,7 @@ premonitory suggestions:
       suggestion:
         - /111 sug lst f - リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
       invoke:
-        - /111 fsd cat f - レイティア「世界を、お救いになったのですね……」
+        - /111 sug rec f - レイティア「世界を、お救いになったのですね……」
 
 
   - item: レイティア
@@ -38,7 +38,7 @@ premonitory suggestions:
       suggestion:
         - /121 sug lst f - レイティア「私はリエル様が何者でも……、愛します！」
       invoke:
-        - /121 fsd cat f - リエルが神人と分かっても抱きしめる
+        - /121 sug rec f - リエルが神人と分かっても抱きしめる
 
 
 ## ヒント
@@ -49,7 +49,7 @@ hints:
       answer:
         - リエルは神人
       resolution:
-        - /111 rev lst --- f - 神に賜った境界のオーブを修復する
+        - /111 hnt rec f - 神に賜った境界のオーブを修復する
       hints:
         - /111 hnt lst f - レイティアが魔法で分析しても種族が隠されている
         - /111 hnt lst f - 晴れる
@@ -67,7 +67,7 @@ hints:
       answer:
         - リエルはレイティアを愛している
       resolution:
-        - /111 rev lst --- f - レイティアの愛を受け入れる
+        - /111 hnt rec --- f - レイティアの愛を受け入れる
       hints:
         - /111 hnt lst f - キスされたら襲いかかるつもりでいた
 

@@ -2,1081 +2,179 @@
 1:
   theme: 社会的欲求, 喜び
   contents:
-    - /011 gen --- f - / 01 001 リエルとレイティアが剣を装備する
-    - /121 gen --- f - / 01 002 レイティアが魔法で分析する
-    - /111 hnt lst f - / 01 003 レイティアが魔法で分析しても種族が隠されている
-    - /121 sug lst f -          レイティア「私はリエル様が何者でも……、愛します！」
-    - /111 sug lst f -          リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
-    - /111 hnt lst f - / 01 004 晴れる
-    - /011 gen --- f -          魔法都市へ向けて出発する
-    - /121 hnt lst b -          1 友達になってほしいと言われてドギマギする
-    - /121 hnt lst b -          1 手をつながれて驚く
-    - /121 hnt lst b -          2 食事を一緒に摂ろうと言われてドキドキする
-    - /121 hnt lst b -          2 食事を分けっこしようと言われてドキドキする
-  
-  information:
-    worldview:
-      history:
-        / 01 001 リエルとレイティアが剣を装備する
-      fantasy:
-        / 01 002 レイティアが魔法で分析する
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          / 01 003 レイティアが魔法で分析しても種族が隠されている => /m01 001
-          / 01 004 晴れる => /m01 001
-          /m01 001 リエルの秘密
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 mod --- f - /histo リエルとレイティアが剣を装備する
+    - /011 mod --- f - /fanta レイティアが魔法で分析する
+    - /111 hnt lst f - /point レイティアが魔法で分析しても種族が隠されている
+    - /121 sug lst f - /thoug レイティア「私はリエル様が何者でもかまいません！」
+    - /111 fsd lst f - /movem リエル「そんなに気負わなくていいわよ。世界を救いにいくわけでもないんだから」
+    - /111 hnt lst f - /point 晴れる
+    - /011 gen --- f - /movem 魔法都市へ向けて出発する
+    - /121 hnt lst b - /emoti 1 友達になってほしいと言われてドギマギする
+    - /121 hnt lst b - /emoti 1 手をつながれて驚く
 
 2:
   theme: 社会的欲求, 悲しみ
   contents:
-    - /101 rsv nxt f - / 02 001 魔王と聖騎士の噂を聞く
-    - /121 hnt lst b -          3 さりげなく体に触れられてドキドキする
-    - /121 hnt lst b -          4 同じ部屋に泊まると言われてドキドキする
-    - /121 hnt lst b -          4 一緒に寝ようと言われて狼狽する
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        / 02 001 魔王と聖騎士の噂を聞く
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 魔王と聖騎士
-      contents:
-        / 02 001 魔王と聖騎士の噂を聞く
-    background:
-    - item: 
-      contents:
-        
+    - /011 rsv nxt f - @demon 魔王と聖騎士の噂を聞く
+    - /121 hnt lst b - /emoti 2 食事を一緒に摂ろうと言われてドキドキする
+    - /121 hnt lst b - /emoti 2 食事を分けっこしようと言われてドキドキする
 
 3:
   theme: 社会的欲求, 怒り
   contents:
-    - /101 rsv cat f b / 03 001 聖騎士との出会いと反目
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        / 03 001 聖騎士との出会いと反目
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 rsv rec f b 聖騎士との出会いと反目
 
 4:
   theme: 社会的欲求, 恐怖
   contents:
-    - /101 gen --- f -          聖騎士と同じ門からは出られず道を変える
-    - /101 rsv nxt f - / 04 001 空間の亀裂の噂を聞く
-    - /111 hnt lst f - / 04 002 晴れる
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        / 04 001 空間の亀裂の噂を聞く
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          / 04 002 晴れる => /m04 001
-          /m04 001 リエルの秘密
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 幻霊
-      contents:
-        / 04 001 空間の亀裂の噂を聞く
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f - /movem 聖騎士と同じ門からは出られず道を変える
+    - /011 rsv nxt f - @mythi 空間の亀裂の噂を聞く
+    - /111 hnt lst f - /point 晴れる
+    - /121 hnt lst b - /emoti 3 さりげなく体に触れられてドキドキする
 
 5:
   theme: 社会的欲求, 驚き
   contents:
-    - /101 rsv cat f - / 05 001 空間の亀裂を見つける
-    - /101 fsd lst f - / 05 001 〃
-    - /101 rsv nxt f - / 05 002 聖騎士の失敗と療養の噂を聞く
-    - /121 hnt lst b -          耳元でささやく
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        / 05 001 空間の亀裂を見つける
-        / 05 002 聖騎士の失敗と療養の噂を聞く
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 幻霊
-      contents:
-        / 05 001 空間の亀裂を見つける
-    - item: 魔王と聖騎士
-      contents:
-        / 05 002 聖騎士の失敗と療養の噂を聞く
-    background:
-    - item: 
-      contents:
-        
+    - /011 rsv rec f - @mythi 空間の亀裂を見つける
+    - /011 fsd lst f - @mythi 〃
+    - /011 rsv nxt f - @demon 聖騎士の失敗と療養の噂を聞く
+    - /121 hnt lst b - /emoti 耳元でささやく
 
 6:
   theme: 社会的欲求, 嫌悪
   contents:
-    - /121 hnt lst b - / 00 000 5 イケメンとのやり取りにヤキモキする
-    - /101 rsv cat f - / 00 000 失敗した聖騎士との邂逅
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 rsv rec f - @demon 失敗した聖騎士との邂逅
+    - /121 hnt lst b - /emoti 4 同じ部屋に泊まると言われてドキドキする
+    - /121 hnt lst b - /emoti 4 一緒に寝ようと言われて狼狽する
 
 7:
   theme: 自己実現の欲求, 恐怖
   contents:
-    - /101 gen --- f - / 00 000 霊樹を取りにいく旅を始める
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f - @demon 霊樹を取りにいく旅を始める
 
 8:
   theme: 自己実現の欲求, 驚き
   contents:
-    - /101 rsv nxt f - / 00 000 空間の亀裂の噂を聞く
-    - /111 hnt lst b - / 00 000 気を抜いていて輝いてしまう
-    - /121 hnt lst b - / 00 000 髪をなでられてドキドキする
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 rsv nxt f - @mythi 空間の亀裂の噂を聞く
+    - /111 hnt lst b - /point 気を抜いていて輝いてしまう
+    - /121 hnt lst b - /emoti 5 イケメンとのやり取りにヤキモキする
 
 9:
   theme: 自己実現の欲求, 嫌悪
   contents:
-    - /121 hnt lst b - / 00 000 6 美人とのやり取りにヤキモキする
-    - /101 rsv cat f b 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
-    - /101 fsd lst f b 〃
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f b /fanta ハト派の幻霊と少し戦う
+      - /011 rsv rec f - @mythi 空間の亀裂のある場所でハト派の幻霊に出会い事情があるらしいことを知る
+      - /011 fsd lst f - @mythi 〃
 
 10:
   theme: 自己実現の欲求, 喜び
   contents:
-    - 
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
+    - /121 hnt lst b - /emoti 髪をなでられてドキドキする
 
 11:
   theme: 自己実現の欲求, 悲しみ
   contents:
-    - /101 gen --- f b            霊樹の採取
-    - /111 hnt lst f - / 00 000 神獣が服従する
-    - /121 hnt lst b - / 00 000 見つめられてドキドキする
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f b /fanta 霊樹の採取で魔物と戦う
+      - /011 gen --- f - /point 霊樹を採取する
+      - /111 hnt lst f - /point 神獣が服従する
+    - /121 hnt lst b - /emoti 見つめられてドキドキする
 
 12:
   theme: 自己実現の欲求, 怒り
   contents:
-    - /101 gen --- f - / 00 000 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
-    - /101 fsd lst f - / 00 000 魔王には侵理の力があると知る
-    - /101 fsd lst f - / 00 000 魔王が幻霊と手を組んでいると知る
-    - /121 hnt lst b - / 00 000 7 色っぽいリエルに生つばを飲む
-    - /121 hnt lst f - / 00 000 7 キスしかける
-    - /111 hnt lst f - / 00 000 キスされたら襲いかかるつもりでいた
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f - @demon 聖騎士の解呪をして和解、破邪のアイテムと特訓を授ける
+    - /011 fsd lst f - @demon 魔王には侵理の力があると知る
+    - /011 fsd lst f - @demon 魔王が幻霊と手を組んでいると知る
+    - /011 fsd lst f - @mythi 〃
+    - /121 hnt lst b - /emoti 7 色っぽいリエルに生つばを飲む
+    - /121 hnt lst f - /movem 7 キスしかける
+    - /111 hnt lst f - /thoug キスされたら襲いかかるつもりでいた
 
 13:
   theme: 水着回
   contents:
-    - /101 gen --- f - / 00 000 暇つぶしに近場を旅する
-
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f - /point 暇つぶしに近場を旅する
 
 14:
   theme: 安全・安定の欲求, 喜び
   contents:
-    - 
-    - /111 hnt lst f - / 00 000 恵みの雨が降る
-    - /121 hnt lst b - / 00 000 サプライズギフトでドキドキする
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
+    - /111 hnt lst f - /point 恵みの雨が降る
+    - /121 hnt lst b - /emoti 6 美人とのやり取りにヤキモキする
+    - /121 hnt lst b - /emoti サプライズギフトでドキドキする
 
 15:
   theme: 安全・安定の欲求, 悲しみ
   notice: 14の翌日
   contents:
-    - 
-    - /111 hnt lst f - / 00 000 晴れる
-    - /121 hnt lst b - / 00 000 後ろからハグ
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /111 hnt lst f - /point 晴れる
+    - /121 hnt lst b - /emoti 後ろからハグ
 
 16:
   theme: 安全・安定の欲求, 恐怖
   contents:
-    - /101 rsv nxt f - / 00 000 空間の亀裂の噂を聞く
-    - /121 hnt lst b - / 00 000 食べさせっこをしてドキドキする
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 rsv nxt f - @mythi 空間の亀裂の噂を聞く
+    - /121 hnt lst b - /emoti 食べさせっこをしてドキドキする
 
 17:
   theme: 安全・安定の欲求, 怒り
   contents:
-    - /101 rsv cat f b ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
-    - /101 fsd lst f b 〃
-    - /111 hnt lst ? - 気を抜いていて足下に草花が繁茂する
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f b /fanta タカ派の幻霊と戦う
+      - /011 rsv rec f - @mythi ハト派の幻霊とタカ派の幻霊の戦いに出くわし、タカ派の企みを知る[mem-001.md]
+      - /011 fsd lst f - @mythi 〃
+    - /111 hnt lst ? - /point 気を抜いていて足下に草花が繁茂する
 
 18:
   theme: 安全・安定の欲求, 驚き
   contents:
-    - 
-    - /121 hnt lst b - / 00 000 頭をなでられてドキドキする
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
+    - /121 hnt lst b - /emoti 頭をなでられてドキドキする
 
 19:
   theme: 安全・安定の欲求, 嫌悪
   contents:
-    - /101 gen --- f - / 00 000 特訓を終えた聖騎士と再会する
-    - /121 hnt lst b - / 00 000 一緒にシャワー
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f - @demon 特訓を終えた聖騎士と再会する
+    - /121 hnt lst b - /emoti 一緒にシャワー
 
 20:
   theme: 自由の欲求, 怒り
   contents:
-    - 
-    - /101 gen --- f - / 00 000 心配なので前線近くを旅する
-    - /111 hnt lst b - / 00 000 レイティアが神の気配を感じる
-    - /121 hnt lst b - / 00 000 一緒に料理する
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
+    - /011 gen --- f - @demon 心配なので前線近くを旅する
+    - /111 hnt lst b - /point レイティアが神の気配を感じる
+    - /121 hnt lst b - /emoti 一緒に料理する
 
 21:
   theme: 自由の欲求, 驚き
   contents:
-    - 
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
 
 22:
   theme: 自由の欲求, 嫌悪
   contents:
-    - 
-    - /121 hnt lst b - / 00 000 手紙をやり取りしてドキドキする
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
+    - /121 hnt lst b - /emoti 手紙をやり取りしてドキドキする
 
 23:
   theme: 自由の欲求, 喜び
   contents:
-    - 
-    - /111 hnt lst f b 圧倒的な力を見せる
-    - /121 hnt lst b - / 00 000 膝枕
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    -
+    - /111 hnt lst f b /movem 圧倒的な力を見せる
+    - /121 hnt lst b - /emoti 膝枕
 
 24:
   theme: 自由の欲求, 悲しみ
   contents:
-    - /101 gen --- f - / 00 000 成功した聖騎士との邂逅
-    - /101 fsd lst f - / 00 000 魔王が魔法都市を気にかけていたと知る
-  
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
+    - /011 gen --- f - @demon 成功した聖騎士との邂逅
+    - /011 fsd lst f - @demon 魔王が魔法都市を気にかけていたと知る
 
 25:
   theme: 自由の欲求, 恐怖
   contents:
-    - /101 gen --- f - / 00 000 魔法都市に着く
-    - /011 rsv cat f - / 00 000 魔法都市で境界のオーブを見る
-    - /111 fsd cat f - / 00 000 レイティア「世界を、お救いになったのですね……」
-    - /121 fsd cat f - / 00 000 リエルが神人と分かっても抱きしめる
+    - /011 gen --- f - /movem 魔法都市に着く
+    - /011 fsd rec f - /movem 魔法都市で境界のオーブを見る
+    - /111 hnt rec f - /movem 神に賜った境界のオーブを修復する
+    - /111 sug rec f - /point レイティア「世界を、お救いになったのですね……」
+    - /121 sug rec f - /movem リエルが神人と分かっても抱きしめる
 
-  information:
-    worldview:
-      history:
-        
-      fantasy:
-        
-      environment:
-        
-    characters:
-      - item: リエル
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-      - item: レイティア
-        personality:
-          
-        past:
-          
-        thought:
-          
-        etc:
-          
-    foreground:
-    - item: 
-      contents:
-        
-    background:
-    - item: 
-      contents:
-        
